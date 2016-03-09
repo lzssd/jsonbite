@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+     <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="刷新" />
+     
+    <Button
+         android:id="@+id/database"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"     
+         android:layout_centerHorizontal="true"
+         android:layout_above="@id/refresh"
+         android:text="Creat database" >
+         
+     </Button>
+     
+     <Button
+         android:id="@+id/add"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"     
+         android:layout_toRightOf="@id/database"
+         android:layout_above="@id/refresh"
+         android:text="add data" >
+         
+     </Button>
+     
+     <Button
+         android:id="@+id/delete"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"     
+         android:layout_toLeftOf="@id/database"
+         android:layout_above="@id/refresh"
+         android:text="delete" >
+         
+     </Button>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_above="@id/database"
+       android:layout_centerHorizontal="true"
+        android:text="自动刷新" />
+    
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_above="@id/switch1"
+      
+         >
+    </ListView>
+
+    
+    
+</RelativeLayout>

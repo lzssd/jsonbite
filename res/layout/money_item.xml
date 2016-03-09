@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name" 
+        android:textSize="20sp"
+        android:textColor="#456"
+        android:layout_weight="5"
+        />
+
+    <TextView
+        android:id="@+id/textprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="price"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:layout_weight="1" />
+
+</LinearLayout>
+ 
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<TextView
+        android:id="@+id/textbuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buyone"
+         android:textColor="#00f" />
+
+    <TextView
+        android:id="@+id/textsell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sellone"
+         android:textColor="#00f"  />
+
+  
+       
+    </LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+      <TextView
+        android:id="@+id/textvol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Textvol"
+         android:textColor="#00f"  />
+     </LinearLayout>
+</LinearLayout>
